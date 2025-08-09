@@ -28,6 +28,8 @@ set ttyfast                 " Speed up scrolling in Vim
 " key remaps
 map <F7> :NERDTreeToggle<CR>
 
+
+
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -55,7 +57,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'PhilRunninger/nerdtree-buffer-ops'
 Plug 'PhilRunninger/nerdtree-visual-selection'
 Plug 'sheerun/vim-polyglot'
-
+Plug 'jiangmiao/auto-pairs'
 
 
 
