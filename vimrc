@@ -26,6 +26,7 @@ set ttyfast                 " Speed up scrolling in Vim
 " set backupdir=~/.cache/vim " Directory to store backup files.
 
 " key remaps
+map <F6> :NERDTreeFocus<CR>
 map <F7> :NERDTreeToggle<CR>
 
 
@@ -47,8 +48,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 " Initialiser Vim-Plug
 call plug#begin('~/.vim/plugged')
 " Listez ici vos plugins, par exemple :
-" Plug 'preservim/nerdtree'
-Plug 'altercation/vim-colors-solarized'
+Plug 'jnurmine/Zenburn'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -57,12 +57,9 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'PhilRunninger/nerdtree-buffer-ops'
 Plug 'PhilRunninger/nerdtree-visual-selection'
 Plug 'sheerun/vim-polyglot'
-Plug 'jiangmiao/auto-pairs'
 
 
 
 call plug#end()
 
-
-set background=dark
-colorscheme solarized
+colors zenburn
