@@ -66,11 +66,22 @@ return require("lazy").setup({
     "folke/which-key.nvim",
   },
 
+  -- GitSign
+  {
+    "lewis6991/gitsigns.nvim"
+  },
+
   -- Theme (load last after all functionality is configured)
   { 
     "catppuccin/nvim", 
     name = "catppuccin",
     priority = 1000, -- Load last
   },
+
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  },
+
 })
 
