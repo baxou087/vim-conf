@@ -13,6 +13,7 @@ require('user.completion') -- Depends on LSP configuration
 require('user.telescope') -- Often integrates with LSP
 require('user.gitsigns') -- git integration
 
+require('user.cursorword')
 require('user.theme')
 
 
