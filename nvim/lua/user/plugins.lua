@@ -71,6 +71,11 @@ return require("lazy").setup({
     "lewis6991/gitsigns.nvim"
   },
 
+  -- cursorword
+  {
+    "ya2s/nvim-cursorline"
+  },
+    
   -- Theme (load last after all functionality is configured)
   { 
     "catppuccin/nvim", 
