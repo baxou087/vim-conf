@@ -89,16 +89,21 @@ return require("lazy").setup({
   {
     "ya2s/nvim-cursorline"
   },
-    
+
   -- Theme (load last after all functionality is configured)
-  { 
-    "catppuccin/nvim", 
+  {
+    "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000, -- Load last
   },
 
   {
-   "ojroques/nvim-hardline"
+    'echasnovski/mini.nvim', version = '*'
+  },
+
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
 
 })

@@ -16,4 +16,4 @@ require('user.aerial') -- aerial
 require('user.codedocs') -- documentation generator
 require('user.cursorword')
 require('user.theme')
-require('user.hardline')
+require('user.lualine')
