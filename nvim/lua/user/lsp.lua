@@ -101,6 +101,19 @@ vim.diagnostic.config({
 local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
 for type, icon in pairs(signs) do
   local hl = "DiagnosticSign" .. type
-  vim.diagnostic.config({ text = icon, texthl = hl, numhl = hl })
+  vim.diagnostic.config({
+    signs = {
+      text = {
+          [vim.diagnostic.severity.ERROR] = '',
+          [vim.diagnostic.severity.WARN] = '',
+      },
+      linehl = {
+          [vim.diagnostic.severity.ERROR] = 'ErrorMsg',
+      },
+      numhl = {
+          [vim.diagnostic.severity.WARN] = 'WarningMsg',
+      },
+    },
+  })
 end
 
