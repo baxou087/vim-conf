@@ -98,8 +98,7 @@ return require("lazy").setup({
   },
 
   {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' }
+   "ojroques/nvim-hardline"
   },
 
 })
