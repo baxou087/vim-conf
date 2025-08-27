@@ -71,6 +71,20 @@ return require("lazy").setup({
     "lewis6991/gitsigns.nvim"
   },
 
+  -- aerial
+  {
+    "stevearc/aerial.nvim"
+  },
+
+  -- docstrings
+  {
+    "jeangiraldoo/codedocs.nvim",
+    -- Remove the 'dependencies' section if you don't plan on using nvim-treesitter
+    dependencies = {
+        "nvim-treesitter/nvim-treesitter"
+    }
+  },
+
   -- cursorword
   {
     "ya2s/nvim-cursorline"
