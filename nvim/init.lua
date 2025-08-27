@@ -12,7 +12,7 @@ require('user.lsp')  -- Depends on language servers being available
 require('user.completion') -- Depends on LSP configuration
 require('user.telescope') -- Often integrates with LSP
 require('user.gitsigns') -- git integration
-
+require('user.codedocs') -- documentation generator
 require('user.cursorword')
 require('user.theme')
 
