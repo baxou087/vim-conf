@@ -46,6 +46,3 @@ end
 -- Recommended mappings
 vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<CR>', { desc = "Toggle file explorer" })
 vim.keymap.set('n', '<leader>fe', '<cmd>NvimTreeFocus<CR>', { desc = "Focus file explorer" })
-
-print("File explorer initialized!")
-
