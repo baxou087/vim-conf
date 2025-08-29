@@ -64,6 +64,7 @@ return require("lazy").setup({
   -- Key binding helper
   {
     "folke/which-key.nvim",
+    dependencies = { "nvim-mini/mini.icons" },
   },
 
   -- GitSign
