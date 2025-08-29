@@ -85,11 +85,6 @@ return require("lazy").setup({
     }
   },
 
-  -- cursorword
-  {
-    "ya2s/nvim-cursorline"
-  },
-
   -- Theme (load last after all functionality is configured)
   {
     "catppuccin/nvim",
