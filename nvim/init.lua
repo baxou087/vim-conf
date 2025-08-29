@@ -14,6 +14,5 @@ require('user.telescope') -- Often integrates with LSP
 require('user.gitsigns') -- git integration
 require('user.aerial') -- aerial
 require('user.codedocs') -- documentation generator
-require('user.cursorword')
 require('user.theme')
 require('user.lualine')
