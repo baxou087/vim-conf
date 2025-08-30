@@ -14,10 +14,11 @@ require("mason").setup({
 require("mason-lspconfig").setup({
   -- Automatically install these servers
   ensure_installed = {
-    "lua_ls",      -- Lua
-    "pyright",     -- Python
+    "lua_ls",        -- Lua
+    "pyright",       -- Python
     "rust_analyzer", -- Rust
-    "clangd",      -- C/C++
+    "clangd",        -- C/C++
+    "zig",           -- Zig
   },
   automatic_installation = true,
 })
