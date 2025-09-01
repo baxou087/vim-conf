@@ -18,7 +18,6 @@ require("mason-lspconfig").setup({
     "pyright",       -- Python
     "rust_analyzer", -- Rust
     "clangd",        -- C/C++
-    "zig",           -- Zig
   },
   automatic_installation = true,
 })
@@ -109,10 +108,12 @@ for type, icon in pairs(signs) do
           [vim.diagnostic.severity.WARN] = '',
       },
       linehl = {
-          [vim.diagnostic.severity.ERROR] = 'ErrorMsg',
+          --[vim.diagnostic.severity.ERROR] = 'ErrorMsg',
+          [vim.diagnostic.severity.ERROR] = '',
       },
       numhl = {
-          [vim.diagnostic.severity.WARN] = 'WarningMsg',
+          --[vim.diagnostic.severity.WARN] = 'dwWarningMsg',
+          [vim.diagnostic.severity.WARN] = '',
       },
     },
   })

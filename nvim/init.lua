@@ -15,5 +15,7 @@ require('user.gitsigns') -- git integration
 require('user.aerial') -- aerial
 require('user.explorer')
 require('user.codedocs') -- documentation generator
+require('user.minipairs') -- autopairs
+require('user.minisurround') -- surrounding
 require('user.theme')
 require('user.lualine')

@@ -67,6 +67,11 @@ return require("lazy").setup({
     dependencies = { "nvim-mini/mini.icons" },
   },
 
+  -- mini.nvim
+  {
+    'nvim-mini/mini.nvim', version = false
+  },
+
   -- GitSign
   {
     "lewis6991/gitsigns.nvim"
