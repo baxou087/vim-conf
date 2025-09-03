@@ -68,4 +68,10 @@ cmp.setup({
   },
 })
 
+-- Set up LSP capabilities
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
+-- Configure each LSP server
+require('lspconfig')['pyright'].setup {
+  capabilities = capabilities
+}
