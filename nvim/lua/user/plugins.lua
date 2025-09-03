@@ -82,10 +82,14 @@ return require("lazy").setup({
     "stevearc/aerial.nvim"
   },
 
+  -- Signature helper
+  {
+    "Dan7h3x/signup.nvim",
+  },
+  
   -- docstrings
   {
     "jeangiraldoo/codedocs.nvim",
-    -- Remove the 'dependencies' section if you don't plan on using nvim-treesitter
     dependencies = {
         "nvim-treesitter/nvim-treesitter"
     }
