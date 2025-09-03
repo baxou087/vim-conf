@@ -13,6 +13,7 @@ require('user.completion') -- Depends on LSP configuration
 require('user.telescope') -- Often integrates with LSP
 require('user.gitsigns') -- git integration
 require('user.aerial') -- aerial
+require('user.signup') -- signature helper
 require('user.explorer')
 require('user.codedocs') -- documentation generator
 require('user.minipairs') -- autopairs
