@@ -97,8 +97,9 @@ return require("lazy").setup({
 
   -- Theme (load last after all functionality is configured)
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "neanias/everforest-nvim",
+    -- "catppuccin/nvim",
+    -- name = "catppuccin",
     priority = 1000, -- Load last
   },
 
