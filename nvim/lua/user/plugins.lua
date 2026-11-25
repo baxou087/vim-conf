@@ -74,22 +74,23 @@ return require("lazy").setup({
 
   -- GitSign
   {
-    "lewis6991/gitsigns.nvim"
+    "lewis6991/gitsigns.nvim",
   },
 
   -- aerial
   {
-    "stevearc/aerial.nvim"
+    "stevearc/aerial.nvim",
   },
 
   -- Signature helper
   {
     "Dan7h3x/signup.nvim",
   },
-  
+
   -- docstrings
   {
     "jeangiraldoo/codedocs.nvim",
+    -- Remove the 'dependencies' section if you don't plan on using nvim-treesitter
     dependencies = {
         "nvim-treesitter/nvim-treesitter"
     }
@@ -97,9 +98,8 @@ return require("lazy").setup({
 
   -- Theme (load last after all functionality is configured)
   {
-    "neanias/everforest-nvim",
-    -- "catppuccin/nvim",
-    -- name = "catppuccin",
+    "catppuccin/nvim",
+    name = "catppuccin",
     priority = 1000, -- Load last
   },
 
