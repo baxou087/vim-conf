@@ -1,8 +1,3 @@
-
-
--- Initialize core settings first
-require('user.options')
-
 -- Load plugin manager
 require('user.plugins')
 
@@ -13,10 +8,13 @@ require('user.completion') -- Depends on LSP configuration
 require('user.telescope') -- Often integrates with LSP
 require('user.gitsigns') -- git integration
 require('user.aerial') -- aerial
-require('user.signup') -- signature helper
+-- require('user.signup') -- signature helper
 require('user.explorer')
 require('user.codedocs') -- documentation generator
 require('user.minipairs') -- autopairs
 require('user.minisurround') -- surrounding
 require('user.theme')
 require('user.lualine')
+
+-- Initialize core settings first
+require('user.options')
