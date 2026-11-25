@@ -1,4 +1,5 @@
 -- vim.cmd('colorscheme desert')
--- vim.cmd('colorscheme catppuccin')
-vim.cmd('colorscheme everforest')
-
+--vim.cmd('colorscheme catppuccin')
+--vim.cmd('colorscheme everforest')
+--vim.cmd('colorscheme catppuccin-frappe')
+vim.cmd('colorscheme catppuccin-latte')
