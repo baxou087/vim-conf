@@ -30,7 +30,7 @@ require('signup').setup({
     debounce_time = 50,
     dock_toggle_key = "<Leader>sd",
     dock_mode = {
-      enabled = false,
+      enabled = true,
       position = "bottom",   -- "bottom", "top", or "middle"
       height = 4,            -- If > 1: fixed height in lines, if <= 1: percentage of window height (e.g., 0.3 = 30%)
       padding = 1,           -- Padding from window edges
