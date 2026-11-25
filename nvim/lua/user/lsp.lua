@@ -98,24 +98,23 @@ vim.diagnostic.config({
 })
 
 -- Change diagnostic symbols in the sign column
-local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
-for type, icon in pairs(signs) do
-  local hl = "DiagnosticSign" .. type
-  vim.diagnostic.config({
-    signs = {
-      text = {
-          [vim.diagnostic.severity.ERROR] = '',
-          [vim.diagnostic.severity.WARN] = '',
-      },
-      linehl = {
-          --[vim.diagnostic.severity.ERROR] = 'ErrorMsg',
-          [vim.diagnostic.severity.ERROR] = '',
-      },
-      numhl = {
-          --[vim.diagnostic.severity.WARN] = 'dwWarningMsg',
-          [vim.diagnostic.severity.WARN] = '',
-      },
-    },
-  })
-end
-
+-- local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
+-- for type, icon in pairs(signs) do
+--   local hl = "DiagnosticSign" .. type
+--   vim.diagnostic.config({
+--     signs = {
+--       text = {
+--           [vim.diagnostic.severity.ERROR] = '',
+--           [vim.diagnostic.severity.WARN] = '',
+--       },
+--       linehl = {
+--           --[vim.diagnostic.severity.ERROR] = 'ErrorMsg',
+--           [vim.diagnostic.severity.ERROR] = '',
+--       },
+--       numhl = {
+--           --[vim.diagnostic.severity.WARN] = 'dwWarningMsg',
+--           [vim.diagnostic.severity.WARN] = '',
+--       },
+--     },
+--   })
+-- end
